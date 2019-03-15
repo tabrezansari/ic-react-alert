@@ -1,0 +1,117 @@
+body {
+  font-family: Arial, sans-serif;
+  background-size: cover;
+  height: 100vh;
+}
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.56);
+  transition: opacity 500ms;
+visibility: visible;
+  opacity: 1;
+  display: none;
+  -webkit-animation-name: animatetop;
+  -webkit-animation-duration: 0.4s;
+  animation-name: animatetop;
+  animation-duration: 0.4s
+}
+.overlay.show{
+  display:block;
+}
+.overlay.hide{
+  display:none;
+}
+
+.popup {
+  margin: 70px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 5px;
+width: 478px;
+    text-align: center;
+  position: relative;
+  transition: all 5s ease-in-out;
+}
+
+
+.popup .content {
+  max-height: 30%;
+  overflow: auto;
+  margin-top: 45px;
+  font-size: 16px;
+    position: relative;
+    float: none;
+    line-height: normal;
+    vertical-align: top;
+    text-align: left;
+    display: inline-block;
+    padding: 0 10px;
+    font-weight: 400;
+    color: rgba(0,0,0,.64);
+    max-width: calc(100% - 20px);
+    overflow-wrap: break-word;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+  from {top:-300px; opacity:0} 
+  to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+  from {top:-300px; opacity:0}
+  to {top:0; opacity:1}
+}
+
+
+.popup .footer{
+  text-align: right;
+    padding-top: 13px;
+    margin-top: 13px;
+    padding: 13px 16px;
+    border-radius: inherit;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.popup-title{
+      color: rgba(0,0,0,.65);
+    font-weight: 600;
+    text-transform: none;
+    position: relative;
+    display: block;
+    padding: 13px 16px;
+    margin-top: 10px;
+    font-size: 27px;
+    line-height: normal;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.popup-button{
+      background-color: #8297a0;
+    color: #fff;
+    border: none;
+    box-shadow: none;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 14px;
+    padding: 10px 24px;
+    cursor: pointer;
+}
+
+.btn-cancel{
+  color: #555;
+    background-color: #efefef;
+    margin-right: 5px;
+}
+
+.btn-danger {
+    background-color: #e64942;
+}

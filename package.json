@@ -1,6 +1,6 @@
 {
- "name": "ic-react-alert",
-  "version": "1.0.1",
+  "name": "ic-react-alert",
+  "version": "1.0.2",
   "description": "A react alert package for react apps",
   "main": "lib/Alert.js",
   "scripts": {

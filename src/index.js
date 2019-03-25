@@ -9,6 +9,7 @@ ReactDom.render(
 		type="confirm"
 		content="Are you realy going to delte it!." 
 		onConfirm={() => console.log("working")}
+		onCancel={()=> console.log("cancelled")}
 	/>,
 document.getElementById('root')
 	)

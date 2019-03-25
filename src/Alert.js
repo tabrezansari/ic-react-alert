@@ -57,7 +57,7 @@ class Alert extends Component{
               <div className="footer">
                 {this.props.type==="confirm"?
                 <div>
-                <input type="button" className ="popup-button btn-cancel"  id="closebtn" onClick={()=> this.closeAlert()}  value="Cancel" />
+                <input type="button" className ="popup-button btn-cancel"  id="closebtn" onClick={()=> this.props.onCancel()}  value="Cancel" />
 
                 <input type="button" onClick={()=>   this.props.onConfirm()} className="popup-button btn-danger" id="closebtn" value="Confirm"/>
                 </div>

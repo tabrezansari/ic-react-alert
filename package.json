@@ -1,6 +1,6 @@
 {
   "name": "ic-react-alert",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "description": "A react alert package for react apps",
   "main": "lib/Alert.js",
   "scripts": {
@@ -11,14 +11,15 @@
   "author": "Tabrez Ansari",
   "license": "ISC",
   "devDependencies": {
-    "babel-cli": "^6.22.2",
-    "babel-core": "^6.22.1",
-    "babel-loader": "^6.2.10",
-    "babel-preset-es2015": "^6.22.0",
-    "babel-preset-react": "^6.22.0",
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.0.5",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
     "css-loader": "^2.1.1",
     "style-loader": "^0.23.1",
-    "webpack": "^2.2.1"
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0"
   },
   "dependencies": {
     "react": "^16.8.4",

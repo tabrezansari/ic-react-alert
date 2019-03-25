@@ -4,7 +4,7 @@
 ## Introductiosn
 
 `ic-react-alert` is a alert library for react applications. There is a `show` prop available for toggling alert component's visibility.
-And `onConfirm`props allow you have  control over alert component events.
+And `onConfirm` and `onCancel` props allow you have  control over alert component events.
 
 ## Install
 
@@ -29,7 +29,8 @@ render() {
         title="Demo"
         type="confirm"
         content="Alert in React"
-        onConfirm={() => this.setState({ show: false })}
+        onConfirm={() => console.log("Confirmed")}
+        onCancel={() => this.setState({show:false})}
       />
     </div>
   );

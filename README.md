@@ -1,5 +1,7 @@
 # ic-react-alert
 
+[![npm version](http://img.shields.io/npm/v/ic-react-alert.svg?style=flat)](https://www.npmjs.com/package/ic-react-alert)
+[![MIT license](http://img.shields.io/badge/license-MIT-brightgreen.svg)](http://opensource.org/licenses/MIT)
 
 ## Introductiosn
 
